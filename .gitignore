@@ -1,1 +1,19 @@
+# UiPath - Arquivos temporários
+.local/
+.objects/
+.project/
+.tmh/
+.screenshots/
 
+# Logs
+*.log
+logs/
+
+# Arquivos do sistema
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Resultados de execução
+Output/
+output/
