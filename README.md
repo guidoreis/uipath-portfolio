@@ -1,8 +1,8 @@
-# 🤖 UiPath Portfolio — RPA Studies
+# UiPath Portfolio — RPA Studies
 
 Exercises organized by topic, from basic concepts to advanced frameworks like REFrameWork.
 
-## 📚 Content
+## Content
 
 | Topic | Description |
 |-------|-------------|
@@ -20,7 +20,7 @@ Exercises organized by topic, from basic concepts to advanced frameworks like RE
 | UiPath Orchestrator | Queues, Assets, Triggers |
 | REFrameWork | Robotic Enterprise Framework |
 
-## 🛠️ Technologies
+## Technologies
 
 - UiPath Studio
 - UiPath Orchestrator
