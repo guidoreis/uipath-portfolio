@@ -1,32 +1,26 @@
-# UiPath Portfolio — RPA Studies
+🤖 UiPath Portfolio
+About
+Portfolio of studies and projects in UiPath Studio — Robotic Process Automation (RPA).
+I'm a Production Engineer and RPA Developer with 2+ years of experience building process automations in UiPath, certified as a UiPath Automation Developer Associate.
 
-Exercises organized by topic, from basic concepts to advanced frameworks like REFrameWork.
+Certification
+UiPath Certified Professional – Automation Developer Associate
 
-## Content
+Tools & Technologies
 
-| Topic | Description |
-|-------|-------------|
-| Variáveis e seus tipos | Variable types and scope |
-| Condicionais | If, Switch, Flow Decision |
-| Estruturas de repetição (loops) | For Each, While, Do While |
-| DataTables | Data table manipulation |
-| Manipulação de pastas e arquivos | File/Folder operations |
-| Manipulação de planilhas do excel | Read/Write Range, filters |
-| Automatização de E-mails | SMTP, IMAP, Outlook |
-| UI Automation | Selectors, clicks, scraping |
-| Organizando nosso Código | Invoke Workflow, libraries |
-| Debug de Projetos | Breakpoints, logging |
-| Tratamento de erros | Try-Catch, Retry Scope |
-| UiPath Orchestrator | Queues, Assets, Triggers |
-| REFrameWork | Robotic Enterprise Framework |
+UiPath Studio / StudioX
+UiPath Orchestrator
+REFramework (Robotic Enterprise Framework)
+SQL Server
+REST APIs
+Excel Automation
+BPMN — Business process modeling
 
-## Technologies
 
-- UiPath Studio
-- UiPath Orchestrator
-- .NET / VB.NET
+Projects & Studies
+FolderDescriptionemail-automationEmail sending, reading and attachment handlingconditional-workflowsIf/Else logic and decision-based flowsdatatable-operationsDataTable creation, filtering and manipulationdebugging-practicesBreakpoints, logging and debug techniquesloop-structuresFor Each, While, Do While loopsfile-managementFile and folder creation, move, copy and deleteexcel-integrationRead/write Excel, range operations, formattingcode-organizationInvoke workflows, modular project structurereframework-templateREFramework architecture and implementationerror-handlingTry/Catch, Throw, Retry Scopeui-automationUI interactions, selectors, click, type, scrapinguipath-orchestratorOrchestrator queues, assets, triggers, schedulingvariablesVariable types, scopes and arguments
 
-## 📫 Contact
+## Contact
 
 - GitHub: [guidoreis](https://github.com/guidoreis)
 - LinkedIn: [Guido Cavalca Meirelles Reis](https://linkedin.com/in/guido-cavalca-meirelles-reis)
