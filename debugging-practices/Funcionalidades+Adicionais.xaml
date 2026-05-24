@@ -1,0 +1,205 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Funcionalidades_Adicionais" VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="1105,2461" sap2010:WorkflowViewState.IdRef="Funcionalidades_Adicionais_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities.Models</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>System.Linq.Expressions</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Collections</AssemblyReference>
+      <AssemblyReference>System.Collections.NonGeneric</AssemblyReference>
+      <AssemblyReference>System.Linq.Expressions</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence sap2010:Annotation.AnnotationText="Exemplo utilizado para demonstrar outras funcionalidades de debug na uipath, são elas:&#xA;&#xA;Slow Step: Permite a execução lenta de cada atividade para uma análise detalhada do fluxo de trabalho.&#xA;&#xA;Execution Trail: Exibe um histórico visual das atividades executadas, facilitando a identificação de erros.&#xA;&#xA;Highlight Elements: Destaca visualmente os elementos da interface que estão sendo interagidos durante a execução.&#xA;&#xA;Log Activities: Registra todas as atividades executadas em logs, proporcionando uma visão detalhada da execução.&#xA;&#xA;Continue on Exception: Permite que a execução continue mesmo quando ocorre uma exceção, útil para testes e depuração." DisplayName="Funcionalidades_Adicionais" sap:VirtualizedContainerService.HintSize="512,2396" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <Sequence.Variables>
+      <Variable x:TypeArguments="x:String" Name="strResult" />
+    </Sequence.Variables>
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+        <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <ui:CommentOut DisplayName="Comment Out - Codigo de exemplo de erro" sap:VirtualizedContainerService.HintSize="450,57" sap2010:WorkflowViewState.IdRef="CommentOut_1">
+      <ui:CommentOut.Body>
+        <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="416,310" sap2010:WorkflowViewState.IdRef="Sequence_5">
+          <sap:WorkflowViewStateService.ViewState>
+            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+            </scg:Dictionary>
+          </sap:WorkflowViewStateService.ViewState>
+          <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" sap2010:Annotation.AnnotationText="Lógica que gerará erro, usada para demonstrar as funcionalidades se comportando com um erro na UiPath.&#xA;Para desativar e testar outras atividades, clicar nela e aperta CTRL + D.&#xA;Para ativar novamente basta clicar nela e apertar CTRL + E." AutoCloseAfter="00:00:00" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="354,225" sap2010:WorkflowViewState.IdRef="MessageBox_9" Text="[Cint(&quot;Rodrigo&quot;)]">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+          </ui:MessageBox>
+        </Sequence>
+      </ui:CommentOut.Body>
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+    </ui:CommentOut>
+    <uix:NApplicationCard sap2010:Annotation.AnnotationText="Abre a calculadora e executa uma multiplicação de 7x7. &#xA;Coleta o resultado final e guarda em uma variável." AttachMode="ByInstance" CloseMode="Always" DisplayName="Use Application: Calculadora" sap:VirtualizedContainerService.HintSize="450,1421" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" OpenMode="Always" ScopeGuid="f143857d-3565-4c38-a4ae-b7676f1afcf1" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence sap2010:Annotation.AnnotationText="Interações com os botões da calculadora" DisplayName="Do" sap:VirtualizedContainerService.HintSize="416,1056" sap2010:WorkflowViewState.IdRef="Sequence_2">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DelayBefore="1" DisplayName="Click - 7" sap:VirtualizedContainerService.HintSize="354,189" sap2010:WorkflowViewState.IdRef="NClick_1" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="f143857d-3565-4c38-a4ae-b7676f1afcf1" Version="V3">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable CvElementArea="75, 361, 61, 34" CvTextArea="99, 369, 12, 17" CvTextArgument="7" CvType="Button" DesignTimeRectangle="75, 361, 61, 33" DesignTimeScaleFactor="1" FriendlyName="'7'" FullSelectorArgument="&lt;uia automationid='num7Button' cls='Button' name='Sete' /&gt;" FuzzyAccuracy="0.95" FuzzySelectorArgument="&lt;uia automationid='num7Button' cls='Button' name='Sete' check:fulltext='7' /&gt;" Guid="f9528368-0b07-4cd2-8ceb-46c35cd92c50" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAEEAAAAlCAYAAAAdkoQJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFNSURBVGhD7Zm7CYRAEIavDzuxFSuxEeuwEFMRwcTAJz4CwUCRuf1F5Ty58HaH3f3gT2SS+ZhZg3lN00Smx0oQeUgYhoHquqaiKLRL0zR7f9893ySg+b7vaVkW0hH0hf4g47PvSwIMocAEuq6jcRyfEmBnXdejTG8wEZ/TcEnAzpjCtm1UlqXZEgD6tRKsBCthx0oQWAkCpRLyPCfHcX7Gdd2j8r+wnIRTThiGx5f/wlKC7/vSpgCwkyB7CgA7CUEQSJ0CwE4CpgAiZMJKAlYAEmTDSoLnefujKBs2ElQ8iCdsJKhaBcBGAtYA66ACNhLwW5T9VzhhIUHlewDYTIJKrASBlSCwEgTGS/h5d8Ad0vgLFO5zbdseZXoDAbi7PiQgaZru/+95no9yvUBf6C/Lsqtn5CYBqaqK4jimKIq0S5Ikt7fgzEOCibESponeCaCuIjyq+fkAAAAASUVORK5CYII=" InformativeScreenshot="b7e33da01de45c35a0a52c482b9cd9a8.png" ScopeSelectorArgument="&lt;wnd app='applicationframehost.exe' title='Calculadora' /&gt;" SearchSteps="Selector, FuzzySelector, Image, CV" Version="V2" Visibility="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click - X" sap:VirtualizedContainerService.HintSize="354,189" sap2010:WorkflowViewState.IdRef="NClick_2" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="f143857d-3565-4c38-a4ae-b7676f1afcf1" Version="V3">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable CvElementArea="264, 360, 60, 35" CvTextArea="286, 370, 14, 14" CvTextArgument="X" CvType="Button" DesignTimeRectangle="264, 361, 60, 33" DesignTimeScaleFactor="1" FriendlyName="''" FullSelectorArgument="&lt;uia automationid='multiplyButton' cls='Button' name='Multiplicar por' /&gt;" FuzzyAccuracy="0.79" FuzzySelectorArgument="&lt;uia automationid='multiplyButton' cls='Button' name='Multiplicar por' check:fulltext='' /&gt;" Guid="3788b9bc-0e0b-467f-8ce2-a3d4f1748d08" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAEAAAAAlCAYAAADyUO83AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFjSURBVGhD7Zk7qoQwFIbvOtyJS3GPLsPSwkZEEKx8PwYRRatz+Qcy+IgzjZPcm6T4mhxP8X95GMjPOI6kM0bAcaDveyrLkrIsU4qqqp7Zjnl3AhC8aRqaponWdVUKZEI2iNhmfgmAHXzAa1aJuq7p8XicBcDMPM/cJpXAStiugpcA7BNeg2osy0J5nusrACCrEWAEGAFGgBEgWkCSJNxxBuq4jfJqdyJFAMLZtk1BEHDrCO44zmX9TqStAITjSRAZHkgTAI4SRIcHUgUAJsHzPOHhgXQBAOEtyyLXdbn1byJdAFv2CP/uYPwWUgUc9zzbDiIlSBNwdeCJliBFAO4B7w48JuHTZekOpAjA7H+aYdSVFfCXMAKMACPACDACdBVw+S6A/7TWL0Nt2z4LvCaVwER3XXcWAOI4pjRNaRgGbvN/BpmQDTfNbeadAFAUBYVhSL7vK0UURbu9zzgJ0A3NBYz0C8iLrE+1KVvxAAAAAElFTkSuQmCC" InformativeScreenshot="6992dbabf424a6c817537428acc32bd0.png" ScopeSelectorArgument="&lt;wnd app='applicationframehost.exe' title='Calculadora' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V2" Visibility="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click - 7" sap:VirtualizedContainerService.HintSize="354,189" sap2010:WorkflowViewState.IdRef="NClick_3" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="f143857d-3565-4c38-a4ae-b7676f1afcf1" Version="V3">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable CvElementArea="75, 361, 61, 34" CvTextArea="99, 369, 12, 17" CvTextArgument="7" CvType="Button" DesignTimeRectangle="75, 361, 61, 33" DesignTimeScaleFactor="1" FriendlyName="'7'" FullSelectorArgument="&lt;uia automationid='num7Button' cls='Button' name='Sete' /&gt;" FuzzyAccuracy="0.95" FuzzySelectorArgument="&lt;uia automationid='num7Button' cls='Button' name='Sete' check:fulltext='7' /&gt;" Guid="f9528368-0b07-4cd2-8ceb-46c35cd92c50" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAEEAAAAlCAYAAAAdkoQJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFNSURBVGhD7Zm7CYRAEIavDzuxFSuxEeuwEFMRwcTAJz4CwUCRuf1F5Ty58HaH3f3gT2SS+ZhZg3lN00Smx0oQeUgYhoHquqaiKLRL0zR7f9893ySg+b7vaVkW0hH0hf4g47PvSwIMocAEuq6jcRyfEmBnXdejTG8wEZ/TcEnAzpjCtm1UlqXZEgD6tRKsBCthx0oQWAkCpRLyPCfHcX7Gdd2j8r+wnIRTThiGx5f/wlKC7/vSpgCwkyB7CgA7CUEQSJ0CwE4CpgAiZMJKAlYAEmTDSoLnefujKBs2ElQ8iCdsJKhaBcBGAtYA66ACNhLwW5T9VzhhIUHlewDYTIJKrASBlSCwEgTGS/h5d8Ad0vgLFO5zbdseZXoDAbi7PiQgaZru/+95no9yvUBf6C/Lsqtn5CYBqaqK4jimKIq0S5Ikt7fgzEOCibESponeCaCuIjyq+fkAAAAASUVORK5CYII=" InformativeScreenshot="b7e33da01de45c35a0a52c482b9cd9a8.png" ScopeSelectorArgument="&lt;wnd app='applicationframehost.exe' title='Calculadora' /&gt;" SearchSteps="Selector, FuzzySelector, Image, CV" Version="V2" Visibility="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click  =" sap:VirtualizedContainerService.HintSize="354,189" sap2010:WorkflowViewState.IdRef="NClick_4" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="f143857d-3565-4c38-a4ae-b7676f1afcf1" Version="V3">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable CvTextArea="283, 471, 21, 18" CvTextArgument="=" CvType="Text" DesignTimeRectangle="264, 465, 60, 32" DesignTimeScaleFactor="1" FriendlyName="''" FullSelectorArgument="&lt;uia automationid='equalButton' cls='Button' name='Igual a' /&gt;" FuzzyAccuracy="0.91" FuzzySelectorArgument="&lt;uia automationid='equalButton' cls='Button' name='Igual a' /&gt;" Guid="2b466beb-5694-4851-9a1b-88cbf777ec52" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAEAAAAAkCAYAAAA5DDySAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAEKSURBVGhD7dmxC0FRFMfx9x8YTWxmf46yWgzIZjEblEXKpqT0Sr1ikcmIEjHyBygD7773BxzOQF73Gl69btz7G76DvPPqfIrlOGEYks0B4PPDzRfUXxwpV5+QUxwYFe/U8rYkgi8AvggoU3GVwybFEPfnrhJAe7pTDphYb36QAfINT/mwifGuEoDqQZMDAAAAAAAAAAAAANACsDpf6XQRseIZ1buSSitAobuk2nAdK55RvSuptAL8YgDQCWD9T8D6P8FfDAAAAAAAAAAAAADgDWDDWexVturKADadxnhXCYCPo6nSSDlgUnwc5Su4BMDxF53ZntLlsXL4n+PFm+4mchnmIgA2ZjlASA8SU+sRJ4GqPAAAAABJRU5ErkJggg==" InformativeScreenshot="1797c36acef6ac1e1ae500a0c64bf23e.png" ScopeSelectorArgument="&lt;wnd app='applicationframehost.exe' title='Calculadora' /&gt;" SearchSteps="Selector, Image, CV" Version="V2" Visibility="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NGetText DisplayName="Get Text - Result" sap:VirtualizedContainerService.HintSize="354,182" sap2010:WorkflowViewState.IdRef="NGetText_1" ScopeIdentifier="f143857d-3565-4c38-a4ae-b7676f1afcf1" TextString="[strResult]" Version="V3">
+              <uix:NGetText.Target>
+                <uix:TargetAnchorable CvTextArea="300, 111, 17, 23" CvType="AnyWordGroup" DesignTimeRectangle="8, 104, 320, 44" DesignTimeScaleFactor="1" FriendlyName="'7'" FullSelectorArgument="&lt;uia automationid='CalculatorResults' role='texto' /&gt;" FuzzyAccuracy="1" FuzzySelectorArgument="&lt;uia automationid='CalculatorResults' role='texto' /&gt;" Guid="e8139d34-e331-4971-95a5-bd8044c8a95c" ImageBase64="" InformativeScreenshot="60eb8ff40b8b679de8054c5bfc13343d.png" ScopeSelectorArgument="&lt;wnd app='applicationframehost.exe' title='Calculadora' /&gt;" SearchSteps="Selector, CV" Version="V2" Visibility="Interactive" />
+              </uix:NGetText.Target>
+            </uix:NGetText>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="454, 381, 336, 509" FilePath="Microsoft.WindowsCalculator_8wekyb3d8bbwe!App" IconBase64="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" InformativeScreenshot="38e7aa055d52c9d2da4b0293c3855d82.png" Selector="&lt;wnd app='applicationframehost.exe' title='Calculadora' /&gt;" Title="Calculadora" />
+      </uix:NApplicationCard.TargetApp>
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+    </uix:NApplicationCard>
+    <If sap2010:Annotation.AnnotationText="Verifica se a calculadora acertou o resultado" Condition="[CInt(strResult) = 49]" DisplayName="If - Resultado maior que 40" sap:VirtualizedContainerService.HintSize="450,578" sap2010:WorkflowViewState.IdRef="If_1">
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+      <If.Then>
+        <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="416,193" sap2010:WorkflowViewState.IdRef="Sequence_3">
+          <sap:WorkflowViewStateService.ViewState>
+            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+            </scg:Dictionary>
+          </sap:WorkflowViewStateService.ViewState>
+          <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="354,108" sap2010:WorkflowViewState.IdRef="MessageBox_2" Text="[&quot;A calculadora acertou o resultado! Resultado encontrado: &quot; + strResult]" />
+        </Sequence>
+      </If.Then>
+      <If.Else>
+        <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="416,193" sap2010:WorkflowViewState.IdRef="Sequence_4">
+          <sap:WorkflowViewStateService.ViewState>
+            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+            </scg:Dictionary>
+          </sap:WorkflowViewStateService.ViewState>
+          <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="354,108" sap2010:WorkflowViewState.IdRef="MessageBox_5" Text="[&quot;A calculadora errou o resultado! Resultado encontrado: &quot; + strResult]" />
+        </Sequence>
+      </If.Else>
+    </If>
+  </Sequence>
+</Activity>
