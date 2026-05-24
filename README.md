@@ -1,4 +1,4 @@
-🤖 UiPath Portfolio
+UiPath Portfolio
 About
 Portfolio of studies and projects in UiPath Studio — Robotic Process Automation (RPA).
 I'm a Production Engineer and RPA Developer with 2+ years of experience building process automations in UiPath, certified as a UiPath Automation Developer Associate.
